@@ -8,6 +8,7 @@
     "start": "next start"
   },
   "dependencies": {
+    "@fortawesome/react-fontawesome": "^0.1.14",
     "gray-matter": "^4.0.3",
     "next": "^10.0.0",
     "react": "^17.0.1",
