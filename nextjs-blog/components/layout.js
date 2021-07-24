@@ -30,13 +30,13 @@ export default function Layout({ children, home }) {
       <Header/>
       <main>{children}</main>
 
-      {!home && (
+      {/* {!home && (
         <div className={styles.backToHome}>
           <Link href="/">
             <a>← Back to home</a>
           </Link>
         </div>
-      )}
+      )} */}
       <Footer/>
     </div>
   )
