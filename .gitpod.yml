@@ -1,7 +1,7 @@
 # List the start up tasks. Learn more https://www.gitpod.io/docs/config-start-tasks/
 tasks:
-  - init: npm install @fortawesome/fontawesome-svg-core @fortawesome/free-solid-svg-icons @fortawesome/react-fontawesome @fortawesome/free-brands-svg-icons # runs during prebuild
-    command: npm run dev
+  - init: cd nextjs-blog && npm install @fortawesome/fontawesome-svg-core @fortawesome/free-solid-svg-icons @fortawesome/react-fontawesome @fortawesome/free-brands-svg-icons # runs during prebuild
+    command: cd nextjs-blog && npm run dev
 
 # List the ports to expose. Learn more https://www.gitpod.io/docs/config-ports/
 ports:
