@@ -15,6 +15,8 @@ export default function Header() {
                         <a className={styles.listItemA}>About</a>
                     </Link>
                 </li>
+                <li className={styles.listItem}>
+                </li>
             </ul>
         </header>
     )

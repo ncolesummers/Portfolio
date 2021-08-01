@@ -18,7 +18,7 @@ export default function About() {
              />
             </div>
             <section className={utilStyles.headingMd}>
-                <p>Hi!  I'm Nate Cole Summers, a UX engineer and frontend developer.</p>
+                <p>Hi!  I'm Cole Summers, a UX designer and frontend developer.</p>
                 <p>When I'm not behind a computer you can find me with my nose in a book or dancing the night away.</p>
                 <p>If you need a delightful user experience or website built slide into my DMs using one of the links below, or send me an email. </p>
             </section>

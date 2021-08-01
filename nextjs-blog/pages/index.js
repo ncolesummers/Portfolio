@@ -11,6 +11,8 @@ export default function Home({ allPostsData }) {
       </Head>
     
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
+      <p>N. Cole Summers Design</p>
+      <p className={`${utilStyles.lightText} ${utilStyles.headingSm}`}>UX Design and Frontend Development</p>
       </section>
     </Layout>
   )
