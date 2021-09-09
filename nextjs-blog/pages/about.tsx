@@ -8,10 +8,10 @@ export default function About() {
             <div style={{ display: "flex", justifyContent: "center", }}>
                 <Image
                 priority
-                src="/images/IMG_1832.jpeg"
+                src="/images/IMG_1757.JPG"
                 className={utilStyles.borderCircle}
                 height={300}
-                width={250}
+                width={300}
                 alt="Picture of the author"
                 />
             </div>
