@@ -17,7 +17,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
         <link rel="icon" href="/favicon.ico" />
         <meta
           name="description"
-          content="UX Design and Website Development"
+          content="Software Development and UX Design"
         />
         <meta
           property="og:image"
@@ -30,7 +30,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
       </Head>
       <Header/>
       <main>{children}</main>
-      <Footer/>
+      <Footer />
     </div>
   )
 }
