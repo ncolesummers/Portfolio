@@ -16,9 +16,9 @@ export default function About() {
                 />
             </div>
             <section className={utilStyles.headingMd}>
-                <p>👋Hi!  I'm Cole Summers, a software developer and UX designer looking for remote or hybrid work in an inclusive environment.</p>
+                <p>👋Hi!  I'm Cole Summers, a software developer looking for remote or hybrid work in an inclusive environment.</p>
                 <p>When I'm not behind a computer you can find me with my nose in a book or dancing the night away.</p>
-                <p>If you need a delightful user experience or website built, slide into my DMs using one of the links below, or <a href = "mailto:nsummers72@gmail.com?subject = Design Request">email</a> me. </p>
+                <p>If you need a delightful user experience or website built, slide into my DMs using one of the links below, or <a href = "mailto:nsummers72@gmail.com?subject = Development Request">email</a> me. </p>
             </section>
         </Layout>
     )
