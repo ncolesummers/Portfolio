@@ -21,7 +21,7 @@ export default function Home({
       </Head>
       <section className={`${utilStyles.headingXl} ${utilStyles.padding1px}`}>
       <p>N. Cole Summers Design</p>
-      <p className={`${utilStyles.lightText} ${utilStyles.paddingNegative5px} ${utilStyles.headingMd}`}>Software Development and UX Design</p>
+      <p className={`${utilStyles.lightText} ${utilStyles.paddingNegative5px} ${utilStyles.headingMd}`}>Software Development and Site Reliability</p>
       </section>
       {/* <Waves/> */}
       
