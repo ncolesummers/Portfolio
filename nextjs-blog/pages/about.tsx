@@ -8,7 +8,7 @@ export default function About() {
             <div style={{ display: "flex", justifyContent: "center", }}>
                 <Image
                 priority
-                src="/images/IMG_1757.JPG"
+                src="/images/Summers_281.jpeg"
                 className={utilStyles.borderCircle}
                 height={300}
                 width={300}
@@ -16,7 +16,7 @@ export default function About() {
                 />
             </div>
             <section className={utilStyles.headingMd}>
-                <p>👋Hi!  I'm Cole Summers, a software developer and WebAssembly aficionado looking for remote or hybrid work in an inclusive environment.</p>
+                <p>👋Hi!  I'm Nate Summers, an application developer and UX Designer.</p>
                 <p>When I'm not behind a computer you can find me with my nose in a book or dancing the night away.</p>
                 <p>If you need someone who can ship reliable software, slide into my DMs using one of the links below, or <a href = "mailto:nsummers72@gmail.com?subject = Development Request">email</a> me. </p>
             </section>

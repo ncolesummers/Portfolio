@@ -3,14 +3,14 @@ import Head from 'next/head';
 import styles from './layout.module.css';
 // import utilStyles from '../styles/utils.module.css';
 import Header from './header';
-import Link from 'next/link';
+// import Link from 'next/link';
 import Footer from './footer';
 import React from 'react';
 
 const name = 'N. Cole Summers'
 export const siteTitle = 'N. Cole Summers Design'
 
-export default function Layout({ children }: { children: React.ReactNode }) {
+export default function Layout({ children }: { children?: React.ReactNode }) {
   return (
     <div className={styles.container}>
       <Head>
