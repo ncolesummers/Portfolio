@@ -4,7 +4,6 @@ import Footer from '../components/footer'
 import utilStyles from '../styles/utils.module.css'
 import { getSortedPostsData } from '../lib/posts'
 import { GetStaticProps } from 'next'
-// import Waves from '../components/waves'
 
 export default function Home({
   allPostsData }: {
@@ -20,10 +19,9 @@ export default function Home({
         <title>{siteTitle}</title>
       </Head>
       <section className={`${utilStyles.headingXl} ${utilStyles.padding1px}`}>
-      <p>N. Cole Summers Design</p>
-      <p className={`${utilStyles.lightText} ${utilStyles.paddingNegative5px} ${utilStyles.headingMd}`}>Software Development and UX Design</p>
+      <p>N. Cole Summers</p>
+      <p className={`${utilStyles.lightText} ${utilStyles.paddingNegative5px} ${utilStyles.headingMd}`}>Software Development & UX Design</p>
       </section>
-      {/* <Waves/> */}
       
     </Layout>
   )
