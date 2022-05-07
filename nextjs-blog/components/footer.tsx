@@ -10,6 +10,9 @@ export default function Footer(home) {
             <a href="https://instagram.com/ncolesummers" >
                 <FontAwesomeIcon className={styles.faIcon} size="4x" icon={faInstagram} />
             </a>
+            <a href='https://www.snapchat.com/add/ncolesummers?share_id=RjEwMDlCRDYtRjQyOS00ODcyLTk4NkMtRjlBOTU0MDU4N0JC&locale=en_US'>
+                <FontAwesomeIcon className={styles.faIcon} size="4x" icon={faSnapchatSquare} />
+            </a>
             <a href="https://github.com/ncolesummers" >
                 <FontAwesomeIcon className={styles.faIcon} size="4x" icon={faGithubSquare} />
             </a>
