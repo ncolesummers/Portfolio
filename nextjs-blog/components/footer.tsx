@@ -1,6 +1,6 @@
 import styles from './footer.module.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faInstagram, faGithubSquare, faTwitterSquare, faDev, faSnapchatSquare } from '@fortawesome/free-brands-svg-icons';
+import { faInstagram, faGithubSquare, faTwitterSquare, faDev, faSnapchatSquare, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 
 export default function Footer(home) {
 
@@ -18,6 +18,9 @@ export default function Footer(home) {
             </a>
             <a href="https://twitter.com/ncolesummers" >
                 <FontAwesomeIcon className={styles.faIcon} size="4x" icon={faTwitterSquare} />
+            </a>
+            <a href='https://www.linkedin.com/in/n-cole-summers'>
+            <FontAwesomeIcon className={styles.faIcon} size="4x" icon={faLinkedin} />
             </a>
             <a href="https://dev.to/ncolesummers">
                 <FontAwesomeIcon className={styles.faIcon} size="4x" icon={faDev} />
