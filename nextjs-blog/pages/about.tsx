@@ -1,14 +1,16 @@
 import utilStyles from '../styles/utils.module.css';
 import Image from 'next/image';
 import Layout from '../components/layout';
+import profile from '../public/images/Summers_281.jpeg';
 
 export default function About() {
     return (
         <Layout>
-            <div style={{ display: "flex", justifyContent: "center", }}>
+            <div style={{ display: "flex", justifyContent: "left", }}>
                 <Image
                 priority
-                src="/images/Summers_281.jpeg"
+                src={profile}
+                placeholder={"blur"}
                 className={utilStyles.borderCircle}
                 height={300}
                 width={300}
