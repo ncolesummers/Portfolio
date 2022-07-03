@@ -16,6 +16,11 @@ export default function Header() {
                     </Link>
                 </li>
                 <li className={styles.listItem}>
+                    <Link href="https://quotes.ncolesummers.com">
+                        <a className={styles.listItemA}>Quotes</a>
+                    </Link>
+                </li>
+                <li className={styles.listItem}>
                     <Link href="https://presentation.ncolesummers.com">
                         <a className={styles.listItemA}>Presentation</a>
                     </Link>
